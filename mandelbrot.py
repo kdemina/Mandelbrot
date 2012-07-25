@@ -25,5 +25,5 @@ for y in range(imgy):
             z = z * z + c
         image.putpixel((x, y), (i % 4 * 64, i % 8 * 32, i % 16 * 64))
 
-image.save("mandelbrot.png", "PNG")
+image.save("mandelbrot.bmp", "bmp")
 image.show()
